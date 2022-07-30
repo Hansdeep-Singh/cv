@@ -1,0 +1,70 @@
+<section id="navbar">
+    <mdb-navbar SideClass="navbar navbar-expand-lg fixed-top">
+        <!-- Navbar brand -->
+        <mdb-navbar-brand><a class="navbar-brand" href="#"> CV- Hans</a></mdb-navbar-brand>
+        <div class="d-flex mx-2 d-lg-none align-items-left">
+            <button type="button" [routerLink]="['/consult']">
+                0426676567
+            </button>
+        </div>
+
+        <!-- Collapsible content -->
+        <links class="d-flex justify-content-between">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
+                        ANGULAR DASHBOARDS</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" [routerLink]="['/videos']">POLARIS</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/podcasts']">SIGMA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
+                        PROJECTS</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" [routerLink]="['/posture']">Posture</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/movement']">Movement</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/range']">Range</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
+                        EDUCATION</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" [routerLink]="['/form']">Pre-Consult form</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
+                        BOOTSTRAP THEMES</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                        <a class="dropdown-item waves-light" [routerLink]="['/form']">Pre-Consult form</a>
+                    </div>
+                </li>
+
+
+
+                <li class="nav-item float-right ml-0"></li>
+            </ul>
+
+            <!-- Links -->
+            <div class="d-flex mx-2 d-none d-lg-block align-items-left">
+                <button type="button" [routerLink]="['/consult']" class="colorfullbtn">
+                    <i class="fas fa-phone"></i> 0426676567
+                </button>
+            </div>
+
+            <!-- Search form -->
+            <div class="form-inline waves-light d-flex align-items-center">
+                <span class="material-icons material-icons-animation-1">face</span>
+
+
+            </div>
+        </links>
+        <!-- Collapsible content -->
+    </mdb-navbar>
+</section>

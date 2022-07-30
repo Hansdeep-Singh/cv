@@ -8,6 +8,11 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { BodyComponent } from './body/body.component';
 import { SkillchartComponent } from './skillchart/skillchart.component';
+import { JarvisComponent } from './jarvis/jarvis.component';
+import { OptusComponent } from './optus/optus.component';
+import { BtechComponent } from './btech/btech.component';
+import { GditComponent } from './gdit/gdit.component';
+import { AwardComponent } from './award/award.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { SkillchartComponent } from './skillchart/skillchart.component';
     HeaderComponent,
     HomeComponent,
     BodyComponent,
-    SkillchartComponent
+    SkillchartComponent,
+    JarvisComponent,
+    OptusComponent,
+    BtechComponent,
+    GditComponent,
+    AwardComponent
   ],
   imports: [
     BrowserModule,

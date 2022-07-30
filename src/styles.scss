@@ -6,7 +6,10 @@
 body {
     background-color: hsl(240, 4%, 95%);
     margin-top: 45px;
+}
 
+section:not(#navbar, #header) {
+    margin-top: 75px !important;
 }
 
 #navbar {

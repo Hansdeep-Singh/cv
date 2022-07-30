@@ -3,8 +3,8 @@
         <!-- Navbar brand -->
         <mdb-navbar-brand><a class="navbar-brand" href="#"> CV- Hans</a></mdb-navbar-brand>
         <div class="d-flex mx-2 d-lg-none align-items-left">
-            <button type="button" [routerLink]="['/consult']">
-                0426676567
+            <button type="button" [routerLink]="['/consult']" class="colorfullbtn">
+                <i class="fas fa-phone"></i> 0426676567
             </button>
         </div>
 
@@ -12,21 +12,41 @@
         <links class="d-flex justify-content-between">
             <!-- Links -->
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown" dropdown>
+                <!-- Angular Dashboards TO DO -->
+                <!-- <li class="nav-item dropdown" dropdown>
                     <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
                         ANGULAR DASHBOARDS</a>
                     <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
                         <a class="dropdown-item waves-light" [routerLink]="['/videos']">POLARIS</a>
                         <a class="dropdown-item waves-light" [routerLink]="['/podcasts']">SIGMA</a>
                     </div>
+                </li> -->
+                <li class="nav-item dropdown" dropdown>
+                    <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
+                        CORPORATE WORK</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+
+                        <a class="dropdown-item waves-light" href="https://myaccount.hunterwater.com.au/login"
+                            target="_blank">HunterWater Accounts portal</a>
+                        <a class="dropdown-item waves-light" href="https://subaru.cpmaustralia.com.au/"
+                            target="_blank">Subaru Recall</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/jarvis']">Jarvis iOS/Andriod app</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/optus']">Optus iOS/Andriod app</a>
+
+                    </div>
                 </li>
                 <li class="nav-item dropdown" dropdown>
                     <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
                         PROJECTS</a>
                     <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                        <a class="dropdown-item waves-light" [routerLink]="['/posture']">Posture</a>
-                        <a class="dropdown-item waves-light" [routerLink]="['/movement']">Movement</a>
-                        <a class="dropdown-item waves-light" [routerLink]="['/range']">Range</a>
+
+                        <a class="dropdown-item waves-light" href="https://vibestechnology.com.au/"
+                            target="_blank">Vibes Technology</a>
+                        <a class="dropdown-item waves-light" href="http://matttownsendpt.com.au/" target="_blank">Matt
+                            Personal Trainer</a>
+                        <a class="dropdown-item waves-light" href="http://www.chatnyou.com/" target="_blank">
+                            Chat/Dating Site</a>
+
                     </div>
                 </li>
 
@@ -34,7 +54,11 @@
                     <a dropdownToggle type="button" class="nav-link dropdown-toggle waves-light">
                         EDUCATION</a>
                     <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
-                        <a class="dropdown-item waves-light" [routerLink]="['/form']">Pre-Consult form</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/award']">Award for all around
+                            performance</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/btech']">Batchelor of Computer Science</a>
+                        <a class="dropdown-item waves-light" [routerLink]="['/gdit']">Graduate diploma in information
+                            technnology</a>
                     </div>
                 </li>
 

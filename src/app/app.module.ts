@@ -13,6 +13,7 @@ import { OptusComponent } from './optus/optus.component';
 import { BtechComponent } from './btech/btech.component';
 import { GditComponent } from './gdit/gdit.component';
 import { AwardComponent } from './award/award.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AwardComponent } from './award/award.component';
     OptusComponent,
     BtechComponent,
     GditComponent,
-    AwardComponent
+    AwardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

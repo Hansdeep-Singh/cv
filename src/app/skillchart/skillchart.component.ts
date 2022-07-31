@@ -113,6 +113,9 @@ export class SkillchartComponent implements OnInit {
         }]
       },
       options: {
+        animation: {
+          duration: 4500
+        },
         indexAxis: 'y',
         scales: {
           y: {

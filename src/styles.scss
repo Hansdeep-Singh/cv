@@ -133,9 +133,18 @@ footer {
 }
 
 #header {
-    i {
+    .boxes i {
         font-size: 48px;
         padding-top: 10px;
+    }
+
+    .name i {
+        color: #37F713;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
     }
 
     h3,

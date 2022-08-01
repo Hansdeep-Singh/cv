@@ -3,6 +3,8 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
+
+
 body {
     background-color: hsl(240, 4%, 95%);
     overflow-x: hidden;
@@ -154,7 +156,8 @@ footer {
 
     h3,
     h2 {
-        padding: 10px 7px;
+        padding: 15px 7px;
+        margin: initial;
     }
 
     color: #eaeaea;

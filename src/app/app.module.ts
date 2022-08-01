@@ -10,6 +10,7 @@ import { BodyComponent } from './body/body.component';
 import { SkillchartComponent } from './skillchart/skillchart.component';
 import { JarvisComponent } from './jarvis/jarvis.component';
 import { OptusComponent } from './optus/optus.component';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BtechComponent } from './btech/btech.component';
 import { GditComponent } from './gdit/gdit.component';
 import { AwardComponent } from './award/award.component';
@@ -33,6 +34,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     MDBBootstrapModule.forRoot()
   ],
   providers: [],

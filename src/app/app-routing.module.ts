@@ -9,40 +9,41 @@ import { JarvisComponent } from './jarvis/jarvis.component';
 import { OptusComponent } from './optus/optus.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  {
-    path: 'header',
-    component: HeaderComponent,
-  },
+  { path: '', component: HomeComponent, pathMatch: 'full', data: { animation: 'PageZero' } },
 
   {
     path: 'jarvis',
     component: JarvisComponent,
+    data: { animation: 'PageOne' }
   },
 
   {
     path: 'optus',
     component: OptusComponent,
+    data: { animation: 'PageTwo' }
   },
 
   {
     path: 'gdit',
     component: GditComponent,
+    data: { animation: 'PageThree' }
   },
 
   {
     path: 'award',
     component: AwardComponent,
+    data: { animation: 'PageFour' }
   },
 
   {
     path: 'btech',
     component: BtechComponent,
+    data: { animation: 'PageFive' }
   },
 ]
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

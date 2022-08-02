@@ -3,8 +3,6 @@
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
-
-
 body {
     background-color: hsl(240, 4%, 95%);
     overflow-x: hidden;
@@ -211,14 +209,17 @@ footer {
     }
 
     .statement {
-        border-left: 4px solid rgba(31, 59, 8, 1);
+        border-left: 4px solid rgba(31, 59, 8, 1) !important;
         margin-left: 20px;
     }
 
-    .card {
-        box-shadow: 7px 7px 5px -8px rgb(0 0 0 / 75%);
-        margin-top: 20px;
-        padding: 10px 6px;
+    .mycard {
+        background-color: #fff;
+        border: 1px hsl(0deg, 1%, 75%) solid;
+        filter: drop-shadow(1px 2px 2px rgb(158, 158, 158));
+        border-radius: 7px;
+        padding: 9px 1px;
+
     }
 
     i {

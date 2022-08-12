@@ -9,7 +9,11 @@ import { JarvisComponent } from './jarvis/jarvis.component';
 import { OptusComponent } from './optus/optus.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full', data: { animation: 'PageZero' } },
+  {
+    path: '', component: HomeComponent,
+    pathMatch: 'full',
+    data: { animation: 'PageZero' }
+  },
 
   {
     path: 'jarvis',

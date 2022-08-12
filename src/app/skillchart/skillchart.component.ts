@@ -113,6 +113,8 @@ export class SkillchartComponent implements OnInit {
         }]
       },
       options: {
+        maintainAspectRatio: false,
+        responsive: true,
         animation: {
           duration: 4500
         },

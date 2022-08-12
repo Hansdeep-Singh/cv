@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+    box-sizing: border-box;
+    //outline: 1px solid rgb(140, 118, 226) !important;
+}
+
 /* Importing Bootstrap SCSS file. */
 @import '~bootstrap/scss/bootstrap';
 
@@ -29,7 +34,17 @@ footer {
 
     .navbar {
         background-color: #222c35;
+
+
     }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 1px solid #6666FF !important;
+        box-shadow: 0px 2px 1px white;
+
+    }
+
 
     a.nav-link,
     a.navbar-brand {
@@ -71,7 +86,7 @@ footer {
         z-index: -1;
         background: conic-gradient(hsl(240, 100%, 50%),
                 hsl(240, 100%, 60%),
-                hsl(240, 100%, 70%),
+                #6666ff,
                 hsl(240, 100%, 95%),
                 hsl(240, 100%, 70%),
                 hsl(240, 100%, 60%),
@@ -135,6 +150,10 @@ footer {
         border-radius: 25px;
         opacity: 1;
     }
+}
+
+#chart {
+    max-width: 100%;
 }
 
 #header {

@@ -3,6 +3,11 @@
         <!-- Navbar brand -->
         <mdb-navbar-brand><a class="navbar-brand" [routerLink]="['/']"> CV- Hans</a></mdb-navbar-brand>
 
+        <div class="d-flex mx-2 d-lg-none align-items-left cv">
+            <a href="..\assets\docs\cv.docx" download> CV
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+        </div>
         <!-- Collapsible content -->
         <links class="d-flex justify-content-between">
             <!-- Links -->
@@ -44,8 +49,6 @@
                         <a class="dropdown-item waves-light" href="http://hansdeep-001-site23.atempurl.com/Home/Order"
                             target="_blank">
                             Nepalese Restaurant</a>
-
-
                     </div>
                 </li>
 
@@ -76,11 +79,14 @@
 
 
 
-
             </ul>
 
             <!-- Links -->
-
+            <div class="d-flex mx-2 d-none d-lg-block align-items-left cv">
+                <a href="..\assets\docs\cv.docx" download> CV
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+            </div>
 
             <!-- Search form -->
             <div class="form-inline waves-light d-flex align-items-center phone">

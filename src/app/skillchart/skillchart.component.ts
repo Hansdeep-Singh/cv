@@ -72,10 +72,10 @@ export class SkillchartComponent implements OnInit {
     const myChart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['.net Framework', 'C#', 'AZURE DevOps', 'Entity Framework', 'MVC', 'ANGULAR', 'Node.js', 'Material Design', 'HTML5', 'CSS3/SASS', 'SQL Server', 'JavaScript', 'JS Libraries', 'Responsive Design', 'Relational Database', 'RESTful API'],
+        labels: ['.net Framework', 'C#', 'AZURE DevOps', 'Entity Framework', 'MVC', 'Angular', 'Node.js', 'Material Design', 'GitHub', 'HTML5', 'CSS3/SASS', 'SQL Server', 'JavaScript', 'JS Libraries', 'Responsive Design', 'Relational Database', 'RESTful API'],
         datasets: [{
           label: 'My Score',
-          data: [90, 95, 90, 75, 85, 90, 87, 93, 96, 86, 90, 89, 75, 96, 94, 86],
+          data: [90, 95, 90, 75, 85, 90, 87, 93, 96, 86, 90, 89, 92, 75, 96, 94, 86],
           backgroundColor: [
             'rgba(74, 74, 376, 0.5)',
             'rgba(147, 197, 94, 0.5)',
@@ -87,6 +87,7 @@ export class SkillchartComponent implements OnInit {
             'rgba(104, 72, 124, 0.5)',
             'rgba(14, 59, 164, 0.5)',
             'rgba(67, 44, 97, 0.5)',
+            'rgba(204, 15, 15, 0.5)',
             'rgba(103, 217, 47, 0.5)',
             'rgba(45, 57, 40, 0.5)',
             'rgba(66, 27, 124, 0.5)',
@@ -106,6 +107,7 @@ export class SkillchartComponent implements OnInit {
             'rgba(104, 59, 164, 1)',
             'rgba(104, 59, 164, 1',
             'rgba(67, 44, 97, 1)',
+            'rgba(204, 15, 15, 1)',
             'rgba(103, 217, 47, 1)',
             'rgba(45, 57, 40, 1)',
             'rgba(66, 27, 124, 1)',

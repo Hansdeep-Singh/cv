@@ -2,7 +2,7 @@
 
 * {
     box-sizing: border-box;
-    //outline: 1px solid rgb(140, 118, 226) !important;
+    // outline: 1px solid rgb(140, 118, 226) !important;
 }
 
 /* Importing Bootstrap SCSS file. */
@@ -252,6 +252,10 @@ footer {
 #body {
     .cust-shd {
         box-shadow: 7px 7px 5px -8px rgb(0 0 0 / 75%);
+    }
+
+    .text-wrap {
+        word-wrap: break-word;
     }
 
     .statement {

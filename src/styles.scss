@@ -249,6 +249,10 @@ footer {
     }
 }
 
+.link-colour {
+    color: #3f5efb !important;
+}
+
 #body {
     .cust-shd {
         box-shadow: 7px 7px 5px -8px rgb(0 0 0 / 75%);
@@ -274,6 +278,9 @@ footer {
             height: 52px;
         }
 
+        a {
+            color: #3f5efb;
+        }
     }
 
     i {

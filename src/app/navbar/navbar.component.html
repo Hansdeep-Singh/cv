@@ -4,7 +4,7 @@
         <mdb-navbar-brand><a class="navbar-brand" [routerLink]="['/']"> CV- Hans</a></mdb-navbar-brand>
 
         <div class="d-lg-none cv">
-            <a href="..\assets\docs\cv.docx" download> CV
+            <a href="..\assets\docs\cv.docx"> CV
                 <i class="fa-solid fa-arrow-down"></i>
             </a>
         </div>
@@ -83,8 +83,11 @@
 
             <!-- Links -->
             <div class="d-flex mx-2 d-none d-lg-block align-items-left cv">
-                <a href="..\assets\docs\cv.docx" download> CV
-                    <i class="fa-solid fa-arrow-down"></i>
+                <a href="..\assets\docs\cv.docx" download>
+                    <div><span>CV</span>
+                        &nbsp; <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                    <div><small>(download)</small></div>
                 </a>
             </div>
 

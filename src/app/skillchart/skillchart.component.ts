@@ -72,7 +72,7 @@ export class SkillchartComponent implements OnInit {
     const myChart = new Chart(ctx, {
       type: 'bar',
       data: {
-        labels: ['.net Framework', 'C#', 'AZURE DevOps', 'AZURE Portal', 'Entity Framework', 'MVC', 'Angular', 'React', 'Node.js', 'Material Design', 'GitHub', 'HTML5', 'CSS3/SASS', 'SQL Server', 'JavaScript Modern', 'TypeScript', 'Responsive Design', 'Relational Database', 'RESTful API'],
+        labels: ['.net Framework', 'C#', 'AZURE DevOps', 'AZURE Portal', 'Entity Framework', 'MVC', 'Angular Framework', 'React Framework', 'Node.js', 'Material Design', 'GitHub', 'HTML5', 'CSS3/SASS', 'SQL Server', 'JavaScript Modern', 'TypeScript', 'Responsive Design', 'Relational Database', 'RESTful API'],
         datasets: [{
           label: 'My Score',
           data: [90, 95, 95, 95, 85, 85, 90, 87, 93, 96, 86, 90, 89, 92, 90, 96, 94, 86],

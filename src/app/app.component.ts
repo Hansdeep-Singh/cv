@@ -3,12 +3,13 @@ import { ChildrenOutletContexts } from '@angular/router';
 import { slideInAnimation } from './animations/animations';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  animations: [
-    slideInAnimation
-  ]
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    animations: [
+        slideInAnimation
+    ],
+    standalone: false
 })
 export class AppComponent {
   title = 'cv';

@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-award',
-  templateUrl: './award.component.html',
-  styleUrls: ['./award.component.scss']
+    selector: 'app-award',
+    templateUrl: './award.component.html',
+    styleUrls: ['./award.component.scss'],
+    standalone: false
 })
 export class AwardComponent implements OnInit {
 

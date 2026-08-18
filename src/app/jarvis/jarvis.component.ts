@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-jarvis',
-  templateUrl: './jarvis.component.html',
-  styleUrls: ['./jarvis.component.scss']
+    selector: 'app-jarvis',
+    templateUrl: './jarvis.component.html',
+    styleUrls: ['./jarvis.component.scss'],
+    standalone: false
 })
 export class JarvisComponent implements OnInit {
 

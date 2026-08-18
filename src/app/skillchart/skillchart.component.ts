@@ -55,9 +55,10 @@ Chart.register(
 );
 
 @Component({
-  selector: 'app-skillchart',
-  templateUrl: './skillchart.component.html',
-  styleUrls: ['./skillchart.component.scss']
+    selector: 'app-skillchart',
+    templateUrl: './skillchart.component.html',
+    styleUrls: ['./skillchart.component.scss'],
+    standalone: false
 })
 export class SkillchartComponent implements OnInit {
 

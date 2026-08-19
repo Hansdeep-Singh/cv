@@ -13,7 +13,7 @@ export class BodyComponent implements OnInit {
 
 
   pdateTimeDifference() {
-    const startDate = new Date('2022-10-01T00:00:00Z');
+    const startDate = new Date('2026-01-12T00:00:00Z');
     const now = new Date();
 
     let years = now.getUTCFullYear() - startDate.getUTCFullYear();

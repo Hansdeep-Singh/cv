@@ -28,6 +28,19 @@ footer {
 }
 
 #navbar {
+    .navbar-top-row {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    @media screen and (min-width:991px) {
+        .navbar-top-row {
+            width: auto;
+        }
+    }
+
     .navbar-toggler-icon {
         background-color: #fff;
     }
@@ -193,6 +206,10 @@ footer {
 }
 
 #header {
+    img.rounded-circle {
+        width: min(220px, 100%);
+    }
+
     small {
         color: #37F713;
     }

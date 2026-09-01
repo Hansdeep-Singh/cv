@@ -1,19 +1,21 @@
 <section id="navbar">
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand" [routerLink]="['/']"> CV- Hans</a>
+            <div class="navbar-top-row">
+                <!-- Navbar brand -->
+                <a class="navbar-brand" [routerLink]="['/']"> CV- Hans</a>
 
-            <div class="d-lg-none cv">
-                <a href="..\assets\docs\cv.docx"> CV
-                    <i class="fa-solid fa-arrow-down"></i>
-                </a>
+                <div class="d-lg-none cv">
+                    <a href="..\assets\docs\cv.docx"> CV
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
 
             <!-- Collapsible content -->
             <div class="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarContent">

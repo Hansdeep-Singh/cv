@@ -361,9 +361,15 @@ footer {
     .mycard {
         background-color: #fff;
         border: 1px hsl(0deg, 1%, 75%) solid;
-        filter: drop-shadow(1px 2px 2px rgb(158, 158, 158));
-        border-radius: 7px;
-        padding: 9px 1px;
+        box-shadow: 1px 2px 6px rgb(158 158 158 / 55%);
+        border-radius: 12px;
+        padding: 18px 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 2px 10px 18px rgb(0 0 0 / 15%);
+        }
 
         svg {
             height: 52px;

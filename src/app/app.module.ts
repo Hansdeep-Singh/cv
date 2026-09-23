@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { BtechComponent } from './btech/btech.component';
 import { GditComponent } from './gdit/gdit.component';
 import { AwardComponent } from './award/award.component';
+import { AgileComponent } from './agile/agile.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -28,6 +29,7 @@ import { FooterComponent } from './footer/footer.component';
     BtechComponent,
     GditComponent,
     AwardComponent,
+    AgileComponent,
     FooterComponent
   ],
   imports: [

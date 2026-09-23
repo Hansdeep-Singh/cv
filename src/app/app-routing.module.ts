@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AwardComponent } from './award/award.component';
+import { AgileComponent } from './agile/agile.component';
 import { BtechComponent } from './btech/btech.component';
 import { GditComponent } from './gdit/gdit.component';
 import { HeaderComponent } from './header/header.component';
@@ -43,6 +44,12 @@ const routes: Routes = [
     path: 'btech',
     component: BtechComponent,
     data: { animation: 'PageFive' }
+  },
+
+  {
+    path: 'agile',
+    component: AgileComponent,
+    data: { animation: 'PageSix' }
   },
 ]
 

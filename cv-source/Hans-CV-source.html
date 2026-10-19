@@ -292,6 +292,23 @@
   </ul>
 </div>
 
+<div class="section-title">Personal Projects</div>
+<div class="job">
+  <div class="job-header">
+    <span class="job-title">ChatnYou &mdash; Real-Time Chat Platform</span>
+    <span class="job-date"><a href="https://www.chatnyou.com/" target="_blank">chatnyou.com</a></span>
+  </div>
+  <div style="font-size:9pt;color:#555;margin-bottom:2px;">ASP.NET Core 9 &middot; Angular 19 &middot; SignalR &middot; OpenIddict (OAuth 2.1/OIDC) &middot; SQL Server &middot; EF Core</div>
+  <ul>
+    <li>Architected a service-oriented backend with a decoupled OAuth 2.1 Authorization Server and Resource Server &mdash; independent databases, CI/CD pipelines, and enforced PKCE on 100% of OAuth clients.</li>
+    <li>Designed a custom CQRS-style mediator/dispatcher pattern with auto-discovered handlers, letting new features ship as isolated additions rather than edits to shared code.</li>
+    <li>Built real-time messaging and presence tracking with SignalR, powering live chat, unread badges, and online-status updates across concurrent user sessions.</li>
+    <li>Delivered a two-way user-blocking feature end-to-end (schema &rarr; API &rarr; real-time push &rarr; UI), backed by 14 new automated tests with zero regressions across a 90-test suite.</li>
+    <li>Hardened the API with tiered rate-limiting (per-IP/per-user) and an automated content-moderation layer (PII/contact-info + profanity detection) applied to every message.</li>
+    <li>Cut production bundle risk by lazy-loading a third-party UI library (~12.5kB) on demand, keeping the Angular app inside its CI-enforced size budget with zero impact to initial load.</li>
+  </ul>
+</div>
+
 <div class="section-title">Education</div>
 <table class="edu-table">
   <tr>
